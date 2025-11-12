@@ -14,8 +14,8 @@ const piBot = require('./run.js');
 
 // --- KONFIGURASI PENTING ---
 const TELEGRAM_TOKEN = '8072498870:AAF36SvRq1pT3GJWCgaJO-ENvAupfCNWRho';
-const WEBHOOK_URL = 'https://server2.zendshost.id';
-const PORT = process.env.PORT || 2000;
+const WEBHOOK_URL = 'https://server5.zendshost.id';
+const PORT = process.env.PORT || 2003;
 // ----------------------------
 
 
@@ -186,7 +186,7 @@ piBot.updateConfig(config);
 bot.onText(/\/start|\/help/, (msg) => {
     adminChatId = msg.chat.id;
     const helpText = `
-🤖 *Selamat Datang di PiSweepBot* 🤖
+🤖 *Selamat Datang di Pileakers* 🤖
 ___________________________
 Bot ini hanya berfungsi untuk memindahkan (sweep) seluruh saldo dari banyak wallet ke satu wallet tujuan.
 ___________________________
